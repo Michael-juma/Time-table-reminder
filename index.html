@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table Reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Time Table Reminder</h1>
+        
+        <form id="reminder-form">
+            <label for="task">Task Name:</label>
+            <input type="text" id="task" placeholder="Enter Task" required>
+
+            <label for="time">Set Reminder Time:</label>
+            <input type="time" id="time" required>
+
+            <button type="submit">Set Reminder</button>
+        </form>
+
+        <div id="reminders-container">
+            <h2>Your Reminders</h2>
+            <ul id="reminders-list">
+                
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
 
